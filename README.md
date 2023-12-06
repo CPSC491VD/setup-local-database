@@ -8,13 +8,13 @@ Make sure you have started pgAdmin and connected to the PostgreSQL 16 server. Yo
 Once you are authenticated, right click on ```Databases``` and select ```Create > Database```. Create a new database and name it ```test_database```. All later documentation will rely on you having used the correct name during the setup process.
 
 # Creating the database via a backup:
-2. Right click on the database in PostgreSQL 16 and click ```Restore```. 
-3. Upload the provided  ```db_backup.sql``` file to recreate an image of the database
+1. Right click on the created database in PostgreSQL 16 and click ```Restore```. 
+2. Upload the provided  ```db_backup.sql``` file to recreate an image of the database
 ![Import database backup](import.png)
 ![Backup selection](import2.png)
 ![Restore](restore.png)
 
-## Creating the database via the Python script:
+# Creating the database via the Python script:
 1. First, create a virtual environment for Python. This will be necessary as you will install a requirements.txt file. Run: ```python -m venv .venv``` on Windows.
 2. Active the venv: ```.venv\Scripts\activate```
 3. Install the requirements.txt: ```pip install -r requirements.txt```
