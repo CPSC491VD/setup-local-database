@@ -9,10 +9,11 @@ Once you are authenticated, right click on ```Databases``` and select ```Create 
 
 # Creating the database via a backup:
 1. Right click on the created database in PostgreSQL 16 and click ```Restore```. 
-2. Upload the provided  ```db_backup.sql``` file to recreate an image of the database
+2. Upload the provided  ```db_backup.sql``` file to recreate an image of the database.
 ![Import database backup](import.png)
 ![Backup selection](import2.png)
 ![Restore](restore.png)
+3. Click restore.
 
 # Creating the database via the Python script:
 1. First, create a virtual environment for Python. This will be necessary as you will install a requirements.txt file. Run: ```python -m venv .venv``` on Windows.
